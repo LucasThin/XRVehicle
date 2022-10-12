@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="eafb2276-4b67-4a88-8244-d9e18435d0db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XRVehicle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XRVehicle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/QuickStart/QuickStart.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/QuickStart/QuickStart.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartHere 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartHere 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665549825334</updated>
       <workItem from="1665549858201" duration="1049000" />
+      <workItem from="1665559496585" duration="1403000" />
     </task>
     <servers />
   </component>
