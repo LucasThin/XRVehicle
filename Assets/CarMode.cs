@@ -23,20 +23,18 @@ public class CarMode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CarModeTrigger.transform.position = new Vector3(Camera.transform.position.x, 1.1f, Camera.transform.position.z);
+        CarModeTrigger.transform.position = new Vector3(Camera.transform.position.x, 0f, Camera.transform.position.z);
 
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        //IfCarMode = true;
         Test.SetActive(true);
         Height.transform.position = cameraOffset;
     }
 
     private void OnTriggerExit(Collider other)
     {
-        //IfCarMode = false;
         Test.SetActive(false);
     }
 }
