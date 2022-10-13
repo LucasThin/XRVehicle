@@ -4,24 +4,26 @@ namespace Assets
 {
     public class Plane : MonoBehaviour {
 
-        public GameObject ObjectToEnable;
+        public GameObject planeModel;
 
         public Plane(GameObject objectToEnable)
         {
-            ObjectToEnable = objectToEnable;
+            planeModel = objectToEnable;
         }
 
         void Start () {
-            ObjectToEnable.SetActive (false);        
+            planeModel.SetActive (false);        
         }
 
         void OnTriggerEnter(Collider other) { 
-            ObjectToEnable.SetActive (true);
+            planeModel.SetActive (true);
+            Debug.Log("Plane mode!");
     
         }
 
         void OnTriggerExit(Collider other) {
-            ObjectToEnable.SetActive (false);
+            planeModel.SetActive (false);
+            Debug.Log("Plane mode exit!");
 
         }
 
