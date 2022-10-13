@@ -24,7 +24,7 @@ public class CarMode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CarModeTrigger.transform.position = new Vector3(MainCamera.transform.position.x, 0.6f, MainCamera.transform.position.z);
+        CarModeTrigger.transform.position = new Vector3(MainCamera.transform.position.x, 1.1f, MainCamera.transform.position.z);
         if (IfCarMode == true)
         {
             MainCamera.SetActive(false);
@@ -43,13 +43,13 @@ public class CarMode : MonoBehaviour
     {
         IfCarMode = true;
         Test.SetActive(true);
-        Debug.Log("Triggered!");
+        Debug.Log("Car Mode Triggered!");
     }
 
     private void OnTriggerExit(Collider other)
     {
         IfCarMode = false;
         Test.SetActive(false);
-        Debug.Log("Left");
+        Debug.Log("Car Mode Exit");
     }
 }
