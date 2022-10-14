@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/MoveBack.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -69,7 +72,7 @@
       <workItem from="1665621442940" duration="1299000" />
       <workItem from="1665625462392" duration="1448000" />
       <workItem from="1665699724495" duration="46000" />
-      <workItem from="1665700341353" duration="1221000" />
+      <workItem from="1665700341353" duration="5306000" />
     </task>
     <servers />
   </component>
