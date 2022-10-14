@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 
 /// <summary>
 /// This script creates a trail at the location of a gameobject with a particular width and color.
