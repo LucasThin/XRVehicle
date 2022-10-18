@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cfe1df7ed391a24fbe2a2d275e81b06, type: 3}
   m_Name: Grab
   m_EditorClassIdentifier: 
-  _shapeName: All Fingers Not Closed
+  _shapeName: Grab
   _thumbFeatureConfigs:
     _value:
-    - _mode: 0
+    - _mode: 1
       _feature: 0
-      _state: 1
+      _state: 2
     - _mode: 1
       _feature: 1
       _state: 5

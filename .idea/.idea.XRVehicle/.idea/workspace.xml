@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eafb2276-4b67-4a88-8244-d9e18435d0db" name="Changes" comment="" />
+    <list default="true" id="eafb2276-4b67-4a88-8244-d9e18435d0db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XRVehicle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XRVehicle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Poses/Shapes/Grab.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Poses/Shapes/Grab.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Prefabs/OculusInteractionSampleRig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Prefabs/OculusInteractionSampleRig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PoseDetection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PoseDetection.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,17 +27,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath E:\MixedRealityClass\XRVehicle -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -73,6 +76,7 @@
       <workItem from="1665625462392" duration="1448000" />
       <workItem from="1665699724495" duration="46000" />
       <workItem from="1665700341353" duration="5306000" />
+      <workItem from="1666070548237" duration="810000" />
     </task>
     <servers />
   </component>
