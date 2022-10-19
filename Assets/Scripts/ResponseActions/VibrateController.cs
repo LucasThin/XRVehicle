@@ -9,11 +9,15 @@ public class VibrateController : MonoBehaviour
     public float strongVibrate = 0.75f;
     public float weakVibrate = 0.25f;
 
-    private XRController controller = null;
+    
+    public XRController controller = null;
 
     private void Awake()
     {
-        controller = GetComponent<XRController>();
+        // Use te code below instead if you put this script on GameObjects that are not controllers
+       // controller = (XRController)GameObject.FindObjectOfType(typeof(XRController));
+       //Use script below onnly if you put this on GameObjects that are controllers
+       controller = GetComponent<XRController>();
     }
 
     public void Vibrate(float amplitude, float duration)
