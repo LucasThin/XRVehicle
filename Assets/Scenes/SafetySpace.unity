@@ -681,7 +681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 124077641}
-  speed: 5
+  speed: 2
   walkRadius: 25
 --- !u!136 &124077643
 CapsuleCollider:
@@ -51689,8 +51689,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 401962353}
-  speed: 5
-  walkRadius: 25
+  speed: 8
+  walkRadius: 50
 --- !u!136 &401962355
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -52936,8 +52936,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 627739162}
-  speed: 5
-  walkRadius: 25
+  speed: 2
+  walkRadius: 50
 --- !u!136 &627739164
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -53280,7 +53280,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &768685836
 Transform:
   m_ObjectHideFlags: 0
@@ -57579,8 +57579,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 1695152743}
-  speed: 5
-  walkRadius: 25
+  speed: 8
+  walkRadius: 50
 --- !u!136 &1695152745
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -57868,8 +57868,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 1723670698}
-  speed: 5
-  walkRadius: 25
+  speed: 2
+  walkRadius: 50
 --- !u!136 &1723670700
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -58577,8 +58577,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 2015376760}
-  speed: 5
-  walkRadius: 25
+  speed: 2
+  walkRadius: 50
 --- !u!136 &2015376762
 CapsuleCollider:
   m_ObjectHideFlags: 0
