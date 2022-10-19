@@ -581,7 +581,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 450e9f17c108ce54cb905012ffbc3295,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 52.42
+      value: 51.61
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 450e9f17c108ce54cb905012ffbc3295,
         type: 3}
@@ -591,7 +591,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 450e9f17c108ce54cb905012ffbc3295,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.35
+      value: -7.86
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 450e9f17c108ce54cb905012ffbc3295,
         type: 3}
@@ -51574,6 +51574,18 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &364454231 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2716043965479607878, guid: 18acfc6d6f07a46429046e9df3790d5b,
+    type: 3}
+  m_PrefabInstance: {fileID: 176052185}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &401962351
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52836,7 +52848,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 450e9f17c108ce54cb905012ffbc3295,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 44.43
+      value: 49.16
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 450e9f17c108ce54cb905012ffbc3295,
         type: 3}
@@ -52846,7 +52858,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 450e9f17c108ce54cb905012ffbc3295,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.54
+      value: -13.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 450e9f17c108ce54cb905012ffbc3295,
         type: 3}
@@ -52908,7 +52920,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627739161}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 3.5
@@ -52952,6 +52964,22 @@ CapsuleCollider:
   m_Height: 1.74
   m_Direction: 1
   m_Center: {x: 0, y: 0.92, z: 0}
+--- !u!54 &627739167
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627739161}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &653811232
 GameObject:
   m_ObjectHideFlags: 0
@@ -52965,6 +52993,7 @@ GameObject:
   - component: {fileID: 653811235}
   - component: {fileID: 653811234}
   - component: {fileID: 653811233}
+  - component: {fileID: 653811238}
   m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
@@ -53264,6 +53293,18 @@ Transform:
   m_Father: {fileID: 768930422}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &653811238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653811232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e237b7a58da18d94aab9f5aa57e6edc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &768685835
 GameObject:
   m_ObjectHideFlags: 0
@@ -53280,7 +53321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &768685836
 Transform:
   m_ObjectHideFlags: 0
@@ -56544,6 +56585,52 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1474462730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1474462732}
+  - component: {fileID: 1474462731}
+  m_Layer: 0
+  m_Name: ActivateHaptics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1474462731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474462730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7686e657f003894781f5cc6240c99f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strongVibrate: 0.75
+  weakVibrate: 0.25
+  controller: {fileID: 0}
+--- !u!4 &1474462732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474462730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 51.014736, y: 1.31991, z: -6.5598855}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1489945708
 GameObject:
   m_ObjectHideFlags: 0
@@ -56695,6 +56782,7 @@ GameObject:
   - component: {fileID: 1543880377}
   - component: {fileID: 1543880376}
   - component: {fileID: 1543880375}
+  - component: {fileID: 1543880379}
   m_Layer: 0
   m_Name: LeftHand Controller
   m_TagString: Untagged
@@ -56825,7 +56913,7 @@ LineRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543880373}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -56946,7 +57034,19 @@ MonoBehaviour:
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1543880379}
+        m_TargetAssemblyTypeName: VibrateController, Assembly-CSharp
+        m_MethodName: VibrateStrong
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 2
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_HoverExited:
     m_PersistentCalls:
       m_Calls: []
@@ -56970,7 +57070,7 @@ MonoBehaviour:
       m_Calls: []
   m_SelectActionTrigger: 1
   m_HideControllerOnSelect: 0
-  m_AllowHoveredActivate: 0
+  m_AllowHoveredActivate: 1
   m_PlayAudioClipOnSelectEntered: 0
   m_AudioClipForOnSelectEntered: {fileID: 0}
   m_PlayAudioClipOnSelectExited: 0
@@ -56992,9 +57092,9 @@ MonoBehaviour:
   m_PlayHapticsOnSelectCanceled: 0
   m_HapticSelectCancelIntensity: 0
   m_HapticSelectCancelDuration: 0
-  m_PlayHapticsOnHoverEntered: 0
-  m_HapticHoverEnterIntensity: 0
-  m_HapticHoverEnterDuration: 0
+  m_PlayHapticsOnHoverEntered: 1
+  m_HapticHoverEnterIntensity: 0.5
+  m_HapticHoverEnterDuration: 1
   m_PlayHapticsOnHoverExited: 0
   m_HapticHoverExitIntensity: 0
   m_HapticHoverExitDuration: 0
@@ -57062,6 +57162,21 @@ MonoBehaviour:
   m_MoveObjectIn: 14
   m_MoveObjectOut: 15
   m_PoseProvider: {fileID: 0}
+--- !u!114 &1543880379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543880373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7686e657f003894781f5cc6240c99f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strongVibrate: 0.75
+  weakVibrate: 0.25
+  controller: {fileID: 0}
 --- !u!43 &1558739419
 Mesh:
   m_ObjectHideFlags: 0
@@ -57605,8 +57720,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1716583855}
   - component: {fileID: 1716583858}
-  - component: {fileID: 1716583857}
   - component: {fileID: 1716583856}
+  - component: {fileID: 1716583860}
+  - component: {fileID: 1716583857}
+  - component: {fileID: 1716583859}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -57637,9 +57754,9 @@ SphereCollider:
   m_GameObject: {fileID: 1716583854}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Radius: 0.3
+  m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1716583857
 MonoBehaviour:
@@ -57648,17 +57765,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716583854}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4253f32900bcc4d499d675566142ded0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 364454231}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
@@ -57686,7 +57803,7 @@ MonoBehaviour:
   m_OnSelectExited:
     m_PersistentCalls:
       m_Calls: []
-  m_SelectActionTrigger: 1
+  m_SelectActionTrigger: 0
   m_HideControllerOnSelect: 0
   m_AllowHoveredActivate: 0
   m_PlayAudioClipOnSelectEntered: 0
@@ -57696,11 +57813,9 @@ MonoBehaviour:
   m_PlayAudioClipOnSelectCanceled: 0
   m_AudioClipForOnSelectCanceled: {fileID: 0}
   m_PlayAudioClipOnHoverEntered: 0
-  m_AudioClipForOnHoverEntered: {fileID: 8300000, guid: 78e866839cb9139479284b3ec9722851,
-    type: 3}
+  m_AudioClipForOnHoverEntered: {fileID: 0}
   m_PlayAudioClipOnHoverExited: 0
-  m_AudioClipForOnHoverExited: {fileID: 8300000, guid: 6170b893c9dfca64980eee61e4fc2069,
-    type: 3}
+  m_AudioClipForOnHoverExited: {fileID: 0}
   m_PlayAudioClipOnHoverCanceled: 0
   m_AudioClipForOnHoverCanceled: {fileID: 0}
   m_PlayHapticsOnSelectEntered: 0
@@ -57712,8 +57827,8 @@ MonoBehaviour:
   m_PlayHapticsOnSelectCanceled: 0
   m_HapticSelectCancelIntensity: 0
   m_HapticSelectCancelDuration: 0
-  m_PlayHapticsOnHoverEntered: 0
-  m_HapticHoverEnterIntensity: 0
+  m_PlayHapticsOnHoverEntered: 1
+  m_HapticHoverEnterIntensity: 0.183
   m_HapticHoverEnterDuration: 0
   m_PlayHapticsOnHoverExited: 0
   m_HapticHoverExitIntensity: 0
@@ -57753,6 +57868,37 @@ MonoBehaviour:
   m_MoveObjectIn: 14
   m_MoveObjectOut: 15
   m_PoseProvider: {fileID: 0}
+--- !u!114 &1716583859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716583854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7686e657f003894781f5cc6240c99f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strongVibrate: 0.75
+  weakVibrate: 0.25
+  controller: {fileID: 0}
+--- !u!54 &1716583860
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716583854}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1723670696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59795,7 +59941,7 @@ GameObject:
   - component: {fileID: 2143254895}
   - component: {fileID: 2143254894}
   - component: {fileID: 2143254897}
-  - component: {fileID: 2143254898}
+  - component: {fileID: 2143254899}
   m_Layer: 0
   m_Name: Idle Person
   m_TagString: Untagged
@@ -59893,9 +60039,9 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.065681
+  m_Radius: 2
   m_Center: {x: 0, y: 0.05810213, z: 0}
---- !u!114 &2143254898
+--- !u!114 &2143254899
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59904,10 +60050,64 @@ MonoBehaviour:
   m_GameObject: {fileID: 2143254892}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 284094ad91bef50418ffdaa4896989d8, type: 3}
+  m_Script: {fileID: 11500000, guid: 59fe722e016ecae438f59fbf21af3ecf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WarningLight: {fileID: 768685835}
+  requiredTag: 
+  OnEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 768685835}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1543880379}
+        m_TargetAssemblyTypeName: VibrateController, Assembly-CSharp
+        m_MethodName: VibrateStrong
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.5
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1716583859}
+        m_TargetAssemblyTypeName: VibrateController, Assembly-CSharp
+        m_MethodName: VibrateStrong
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.5
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  OnExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 768685835}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!43 &2144776305
 Mesh:
   m_ObjectHideFlags: 0
