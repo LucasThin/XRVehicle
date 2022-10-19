@@ -6,7 +6,257 @@
   <component name="ChangeListManager">
     <list default="true" id="eafb2276-4b67-4a88-8244-d9e18435d0db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XRVehicle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XRVehicle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SafetySpace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SafetySpace.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/LICENSE.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/LICENSE.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Human_LeftHand.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Human_LeftHand.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Human_RightHand.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Human_RightHand.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Materials/M_Body.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Materials/M_Body.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Materials/M_Body_Dark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Materials/M_Body_Dark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Materials/M_FaceMask.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Materials/M_FaceMask.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Materials/M_Light.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Materials/M_Light.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Materials/lambert2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/Materials/lambert2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/PNSGlovesMocap.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/PNSGlovesMocap.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/PNSGlovesMocapSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSGlovesMocap/PNSGlovesMocapSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/ChairTall.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/ChairTall.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/ChairTop.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/ChairTop.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/Mat_WiiMoteBase.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/Mat_WiiMoteBase.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/Material__15.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/Material__15.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/PaintedWood_Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/PaintedWood_Black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/White_Rabbit_Low1_White_Rabbit_LowMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/White_Rabbit_Low1_White_Rabbit_LowMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/lambert1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/lambert1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/light3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/light3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/table_light_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/table_light_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/wiimote.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Materials/wiimote.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Model.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Model/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Model/Materials/BK.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Model/Materials/BK.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Model/Materials/M_Light.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Model/Materials/M_Light.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Model/cylinder.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/Model/cylinder.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/PNSHybridMocap.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/PNSHybridMocap.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/RigidbodyVirtualCinematographyCtrl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/RigidbodyVirtualCinematographyCtrl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/SM_WhiteRabbit.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/SM_WhiteRabbit.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/table_S.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/PNSHybridMocap/table_S.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/SimpleFBXAnimations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/SimpleFBXAnimations/HipContact.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/SimpleFBXAnimations/HipContact.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/SimpleFBXAnimations/HipContact_1_chr00.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/SimpleFBXAnimations/HipContact_1_chr00.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/SimpleFBXAnimations/StudioFBXExample1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/NeuronExamples/SimpleFBXAnimations/StudioFBXExample1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/PNS Human Template.ht" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/PNS Human Template.ht.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Plugins/MocapApi.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Plugins/MocapApi.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Plugins/x64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Plugins/x64/MocapApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Plugins/x64/MocapApi.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/QuickStart.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/QuickStart/QuickStart.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/QuickStart/QuickStart.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Materials/BoneColliderMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Materials/BoneColliderMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Materials/CheckerGrid.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Materials/CheckerGrid.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Materials/Grid.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Materials/Grid.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Materials/Material #188.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Materials/Material #188.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Materials/Material #189.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Materials/Material #189.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/M_Body.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/M_Body.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/M_Body_Dark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/M_Body_Dark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/M_Face.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/M_Face.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/M_FaceMask.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/M_FaceMask.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/M_Light.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/M_Light.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/NeuronRobot Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/NeuronRobot Black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/NeuronRobot White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/NeuronRobot White.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/blinn2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/blinn2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/blinn4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/blinn4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/pasted__M_Body.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/pasted__M_Body.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/pasted__M_Body_Dark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/pasted__M_Body_Dark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/pasted__M_Face.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/pasted__M_Face.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/shou_4_blinn1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/shou_4_blinn1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/shou_4_blinn2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/shou_4_blinn2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/shou_4_lambert2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/Materials/shou_4_lambert2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/NeuronRobot_SingleMesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/NeuronRobot_SingleMesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/PN_Avatar_Stickman01_SingleMesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/PN_Avatar_Stickman01_SingleMesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/PN_Avatar_Stickman01_ThumbOpen.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Models/PN_Avatar_Stickman01_ThumbOpen.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Prefabs/Robot Colliders Template.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Prefabs/Robot Colliders Template.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Shaders/BoneLineShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Shaders/BoneLineShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Textures/CheckerGrid.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Textures/CheckerGrid.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Textures/Grid.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Textures/Grid.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Textures/NEURON LOGO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Textures/NEURON LOGO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Textures/NEURON_LOGO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Resources/Textures/NEURON_LOGO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Editor/NeuronAnimatorInstanceEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Editor/NeuronAnimatorInstanceEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Editor/NeuronRigidbodyInstanceEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Editor/NeuronRigidbodyInstanceEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Editor/NeuronTransformsInstanceEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Editor/NeuronTransformsInstanceEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Editor/SkeletonTools.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Editor/SkeletonTools.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/MocapApiManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/MocapApiManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronActor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronActor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronAnimatorInstance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronAnimatorInstance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronAnimatorPhysicalReference.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronAnimatorPhysicalReference.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronDataReaderManaged.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronDataReaderManaged.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronEnums.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronEnums.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronInstance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronInstance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronRigidbody.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronRigidbody.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronRigidbodyListHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronRigidbodyListHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronTransformsInstance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronTransformsInstance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronTransformsPhysicalReference.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Mocap/NeuronTransformsPhysicalReference.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Utilities/AliceMotionBindHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Utilities/AliceMotionBindHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Utilities/BoneColliders.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Utilities/BoneColliders.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Utilities/BoneLine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Utilities/BoneLine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Utilities/BoneLines.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Utilities/BoneLines.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Utilities/BoneRigidbodies.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Utilities/BoneRigidbodies.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Utilities/FPSCounter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Noitom/PerceptionNeuron/Scripts/Utilities/FPSCounter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Demo/Prototype Materials Demo/GI Blocker.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Demo/Prototype Materials Demo/GI Blocker.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Demo/Prototype Materials Demo/Neon Light.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Demo/Prototype Materials Demo/Neon Light.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Blue1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Blue1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Blue2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Blue2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Blue3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Blue3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Cyan.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Cyan.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Green1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Green1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Green2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Green2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Green3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Green3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Grey1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Grey1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Grey2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Grey2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Grey3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Grey3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Grey4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Grey4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Magenta.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Magenta.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Olive.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Olive.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Orange.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Orange.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Pink.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Pink.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Purple.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Purple.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Red.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Yellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/XRGeneralSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/XRGeneralSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/documentation/Documentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/documentation/Documentation.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/material.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/material/robot_metallic.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/material/robot_metallic.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/mesh/robot_metallic.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/mesh/robot_metallic.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/prefab/robot_metallic.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/prefab/robot_metallic.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/scene/robot_metallic.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/scene/robot_metallic.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/textures/robot_metallic_Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/textures/robot_metallic_Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/textures/robot_metallic_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/textures/robot_metallic_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/textures/robot_metallic_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/textures/robot_metallic_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/textures/robot_metallic_Normalmap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/textures/robot_metallic_Normalmap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/textures/robot_metallic_Occlusion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/robot_metallic/textures/robot_metallic_Occlusion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +264,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Installed Packages/GestureRecognition/GestureManager/GestureManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MoveBack.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -24,18 +275,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "rider.run.widget.enabled.cache": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe" />
@@ -83,7 +334,8 @@
       <workItem from="1665700341353" duration="5306000" />
       <workItem from="1666070548237" duration="810000" />
       <workItem from="1666139435708" duration="1000" />
-      <workItem from="1666142301807" duration="1365000" />
+      <workItem from="1666142301807" duration="2049000" />
+      <workItem from="1666155511163" duration="828000" />
     </task>
     <servers />
   </component>
@@ -93,4 +345,15 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
 </project>

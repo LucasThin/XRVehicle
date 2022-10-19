@@ -1,0 +1,54 @@
+{
+    "name": "MiVRy",
+    "maps": [
+        {
+            "name": "MiVRy",
+            "id": "a269da5c-c825-453c-ad2a-fcfda52ba4e6",
+            "actions": [
+                {
+                    "name": "LeftTriggerButton",
+                    "type": "Button",
+                    "id": "2697c5aa-f74c-4bc3-a708-d5a203d8e4b2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightTriggerButton",
+                    "type": "Button",
+                    "id": "dc513899-e838-4dbc-a906-e71421144fe2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "437917c4-bf7e-4e74-8a45-70cb97e9867c",
+                    "path": "<OculusTouchController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftTriggerButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7be90e91-d435-4a77-b80a-a676d8570f51",
+                    "path": "<OculusTouchController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightTriggerButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
