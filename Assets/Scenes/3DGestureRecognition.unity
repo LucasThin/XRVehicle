@@ -55061,7 +55061,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LicenseName: 
   LicenseKey: 
-  GestureDatabaseFile: Sample_Military_Gestures.dat
+  GestureDatabaseFile: diagona.dat
   unityXrPlugin: 0
   mivryCoordinateSystem: 1
   LeftHand: {fileID: 1543880373}

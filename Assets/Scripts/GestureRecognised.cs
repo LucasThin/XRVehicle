@@ -11,11 +11,13 @@ public class GestureRecognised : MonoBehaviour
         if (gestureCompletionData.gestureID < 0)
         {
             string errorMessage = GestureRecognition.getErrorMessage(gestureCompletionData.gestureID);
+            Debug.Log(errorMessage);
             return;
         }
         if (gestureCompletionData.similarity >= 0.5)
         {
-            _object.SetActive(true);
+            Debug.Log(gestureCompletionData.similarity);
+            _object.SetActive(false);
         }
     }
 }
