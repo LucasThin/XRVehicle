@@ -10,12 +10,20 @@ public class AiController : MonoBehaviour
 {
     public NavMeshAgent agent;
     private LineRenderer myLineRender;
+    public GameObject agentMesh;
+    public GameObject test;
+
+    public Transform start;
+    public Transform target; 
+    CapsuleCollider capsule;
 
     [Range(0, 100)] public float speed;
     [Range(1, 500)] public float walkRadius;
 
     void Start()
     {
+        test.SetActive(false);
+
         agent = GetComponent<NavMeshAgent>();
         if (agent != null)
         {
@@ -25,10 +33,33 @@ public class AiController : MonoBehaviour
 
         //Line
         myLineRender = GetComponent<LineRenderer>();
-        myLineRender.startWidth = 0.15f;
-        myLineRender.endWidth = 0.15f;
+        myLineRender.startWidth = 0.1f;
+        myLineRender.endWidth = 0.1f;
         myLineRender.positionCount = 0;
 
+        //colider
+        //capsule = gameObject.AddComponent(typeof(CapsuleCollider));
+        capsule.radius = 0.5f;
+        capsule.center = Vector3.zero;
+        capsule.direction = 2; // Z-axis for easier "LookAt" orientation
+
+        /*
+        myLineRender.startColor = Color.black;
+        myLineRender.endColor = Color.white;\
+        */
+
+
+
+        /*
+        //Line Color
+        float alpha = 1.0f;
+        Gradient gradient = new Gradient();
+        gradient.SetKeys(
+            new GradientColorKey[] { new GradientColorKey(Color.cyan, 0.0f), new GradientColorKey(Color.white, 1.0f) },
+            new GradientAlphaKey[] { new GradientAlphaKey(alpha, 0.0f), new GradientAlphaKey(alpha, 1.0f), }
+        );
+        myLineRender.colorGradient = gradient;
+        */
     }
 
     // Update is called once per frame
@@ -39,6 +70,13 @@ public class AiController : MonoBehaviour
             agent.SetDestination(RandomNavMeshLocation());
         }
         DrawPath();
+
+        if (agentMesh.CompareTag("blocked"))
+            test.SetActive(true);
+
+        capsule.transform.position = start.position + (target.position - start.position) / 2;
+        capsule.transform.LookAt(start.position);
+        capsule.height = (target.position - start.position).magnitude;
     }
     
     public Vector3 RandomNavMeshLocation()
@@ -70,4 +108,22 @@ public class AiController : MonoBehaviour
             myLineRender.SetPosition(i, pointPosition);
         }
     }
+
+    /*public void GenerateMeshCollider()
+    {
+        MeshCollider Collider = GetComponent<MeshCollider>();
+
+        if (Collider == null)
+        {
+            Collider = gameObject.AddComponent<MeshCollider>();
+        }
+
+        Mesh mesh = new Mesh();
+        myLineRender.BakeMesh(mesh);
+        Collider.sharedMesh = mesh;
+
+        if (agentMesh == null)
+            agentMesh = GameObject.FindWithTag("Blocked");
+
+    }*/
 }
