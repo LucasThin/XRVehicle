@@ -23,6 +23,7 @@ public class AiController : MonoBehaviour
     void Start()
     {
         test.SetActive(false);
+        agent.tag = "blocked";
 
         agent = GetComponent<NavMeshAgent>();
         if (agent != null)
@@ -70,9 +71,7 @@ public class AiController : MonoBehaviour
             agent.SetDestination(RandomNavMeshLocation());
         }
         DrawPath();
-
-        if (agentMesh.CompareTag("blocked"))
-            test.SetActive(true);
+        GenerateMeshCollider();
 
         capsule.transform.position = start.position + (target.position - start.position) / 2;
         capsule.transform.LookAt(start.position);
@@ -109,21 +108,30 @@ public class AiController : MonoBehaviour
         }
     }
 
-    /*public void GenerateMeshCollider()
+    public void GenerateMeshCollider()
     {
-        MeshCollider Collider = GetComponent<MeshCollider>();
+        MeshCollider collider = GetComponent<MeshCollider>();
 
-        if (Collider == null)
+        if (collider == null)
         {
-            Collider = gameObject.AddComponent<MeshCollider>();
+            collider = gameObject.AddComponent<MeshCollider>();
         }
 
         Mesh mesh = new Mesh();
         myLineRender.BakeMesh(mesh);
-        Collider.sharedMesh = mesh;
+        collider.sharedMesh = mesh;
+        Debug.Log("mesh created");
+    }
 
-        if (agentMesh == null)
-            agentMesh = GameObject.FindWithTag("Blocked");
+    private void OnTriggerEnter(Collider block)
+    {
+        test.SetActive(true);
+        Debug.Log("Blocked");
+    }
 
-    }*/
+    private void OnTriggerExit(Collider block)
+    {
+        test.SetActive(false);
+        Debug.Log("No collision");
+    }
 }
