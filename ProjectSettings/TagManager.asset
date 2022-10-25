@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Collision
   - PlaneTrigger
+  - Line
   layers:
   - Default
   - TransparentFX
