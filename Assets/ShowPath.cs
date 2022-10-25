@@ -8,17 +8,15 @@ using UnityEngine.AI;
 public class ShowPath : MonoBehaviour
 {
     public NavMeshAgent agent;
-    public GameObject test;
-    private LineRenderer myLineRender;
-    private MeshCollider linecollider;
+    public LineRenderer myLineRender;
+
+    //private MeshCollider linecollider;
 
     public Transform agentParent;
-
 
     // Start is called before the first frame update
     void Start()
     {
-        test.SetActive(false);
 
         //Line
         myLineRender = GetComponent<LineRenderer>();
@@ -30,17 +28,15 @@ public class ShowPath : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        myLineRender.transform.SetParent(transform);
-        //linecollider.transform.SetParent(transform);
         DrawPath();
-        GenerateMeshCollider();
+        //GenerateMeshCollider();
     }
 
     void DrawPath()
     {
         myLineRender.positionCount = agent.path.corners.Length;
         myLineRender.SetPosition(0, transform.position);
-
+        
         if (agent.path.corners.Length < 2)
         {
             return;
@@ -52,10 +48,9 @@ public class ShowPath : MonoBehaviour
             myLineRender.SetPosition(i, pointPosition);
         }
 
-        myLineRender.transform.SetParent(agentParent);
     }
 
-    public void GenerateMeshCollider()
+    /*public void GenerateMeshCollider()
     {
         linecollider = GetComponent<MeshCollider>();
 
@@ -65,38 +60,8 @@ public class ShowPath : MonoBehaviour
         }
 
         Mesh mesh = new Mesh();
-        myLineRender.BakeMesh(mesh, true);
+        myLineRender.BakeMesh(mesh,true);
         linecollider.sharedMesh = mesh;
-        linecollider.transform.SetParent(agentParent);
+    }*/
 
-
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        test.SetActive(true);
-        myLineRender.startWidth = 1f;
-        myLineRender.endWidth = 1f;
-        Debug.Log("Blocked");
-
-
-        /*
-        //Line Color
-        float alpha = 1.0f;
-        Gradient gradient = new Gradient();
-        gradient.SetKeys(
-            new GradientColorKey[] { new GradientColorKey(Color.cyan, 0.0f), new GradientColorKey(Color.white, 1.0f) },
-            new GradientAlphaKey[] { new GradientAlphaKey(alpha, 0.0f), new GradientAlphaKey(alpha, 1.0f), }
-        );
-        myLineRender.colorGradient = gradient;
-        */
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        test.SetActive(false);
-        myLineRender.startWidth = 0.1f;
-        myLineRender.endWidth = 0.1f;
-        Debug.Log("No collision");
-    }
 }
