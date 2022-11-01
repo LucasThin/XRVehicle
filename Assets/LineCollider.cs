@@ -12,6 +12,9 @@ public class LineCollider : MonoBehaviour
     public GameObject test;
     public bool triggerCheck;
 
+    public bool isStay = false;
+    public bool isInCollider = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -23,23 +26,41 @@ public class LineCollider : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isStay)
+        {
+            isInCollider = true;
+            isStay = false;
+        }
+        else
+        {
+            isInCollider = false;
+        }
+
         GenerateMeshCollider();
 
-        if(triggerCheck == true)
+
+        if(isInCollider == true)
         {
             test.SetActive(true);
             myLineRender.startWidth = 1f;
             myLineRender.endWidth = 1f;
-            Debug.Log("Blocked");
+            //Debug.Log("Blocked");
         }
 
-        else
+        else if (isInCollider == false)
         {
             test.SetActive(false);
             myLineRender.startWidth = 0.1f;
             myLineRender.endWidth = 0.1f;
-            Debug.Log("No collision");
+            //Debug.Log("No collision");
         }
+
+
+
+    }
+
+    void FixUpdate()
+    {
 
     }
 
@@ -60,7 +81,13 @@ public class LineCollider : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        triggerCheck = true;
+        if (other.CompareTag("XR"))
+        {
+            //triggerCheck = true;
+            Debug.Log("Trigger");
+        }
+
+
 
 
         /*
@@ -75,9 +102,12 @@ public class LineCollider : MonoBehaviour
         */
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-        triggerCheck = false;
+        if (other.CompareTag("XR"))
+        {
+            isStay = true;
+            Debug.Log("Staying");
+        }
     }
-
 }

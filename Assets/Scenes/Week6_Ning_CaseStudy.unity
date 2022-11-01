@@ -52559,6 +52559,8 @@ MonoBehaviour:
   NavAgent: {fileID: 2015376759}
   test: {fileID: 476526615}
   triggerCheck: 0
+  isStay: 0
+  isInCollider: 0
 --- !u!4 &550825238
 Transform:
   m_ObjectHideFlags: 0
@@ -54431,6 +54433,8 @@ MonoBehaviour:
   NavAgent: {fileID: 401962352}
   test: {fileID: 476526615}
   triggerCheck: 0
+  isStay: 0
+  isInCollider: 0
 --- !u!4 &933525178
 Transform:
   m_ObjectHideFlags: 0
@@ -55184,8 +55188,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myLineRender: {fileID: 592355724}
   NavAgent: {fileID: 1030970875}
-  test: {fileID: 0}
+  test: {fileID: 476526615}
   triggerCheck: 0
+  isStay: 0
+  isInCollider: 0
 --- !u!4 &1139097413
 Transform:
   m_ObjectHideFlags: 0
@@ -55896,6 +55902,8 @@ MonoBehaviour:
   NavAgent: {fileID: 1723670697}
   test: {fileID: 476526615}
   triggerCheck: 0
+  isStay: 0
+  isInCollider: 0
 --- !u!4 &1255468214
 Transform:
   m_ObjectHideFlags: 0
@@ -58560,6 +58568,8 @@ MonoBehaviour:
   NavAgent: {fileID: 59094452}
   test: {fileID: 476526615}
   triggerCheck: 0
+  isStay: 0
+  isInCollider: 0
 --- !u!4 &1552730000
 Transform:
   m_ObjectHideFlags: 0
@@ -58771,6 +58781,8 @@ MonoBehaviour:
   NavAgent: {fileID: 1695152742}
   test: {fileID: 476526615}
   triggerCheck: 0
+  isStay: 0
+  isInCollider: 0
 --- !u!4 &1574590606
 Transform:
   m_ObjectHideFlags: 0
@@ -59037,6 +59049,8 @@ MonoBehaviour:
   NavAgent: {fileID: 124077640}
   test: {fileID: 476526615}
   triggerCheck: 0
+  isStay: 0
+  isInCollider: 0
 --- !u!4 &1664020091
 Transform:
   m_ObjectHideFlags: 0
@@ -59223,6 +59237,8 @@ MonoBehaviour:
   NavAgent: {fileID: 768839566}
   test: {fileID: 476526615}
   triggerCheck: 0
+  isStay: 0
+  isInCollider: 0
 --- !u!4 &1700731575
 Transform:
   m_ObjectHideFlags: 0
@@ -59758,7 +59774,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 2.0493088, z: 1}
-  m_Center: {x: 0, y: 0.020972252, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!43 &1796507618
 Mesh:
   m_ObjectHideFlags: 0
@@ -59956,6 +59972,8 @@ MonoBehaviour:
   NavAgent: {fileID: 627739161}
   test: {fileID: 476526615}
   triggerCheck: 0
+  isStay: 0
+  isInCollider: 0
 --- !u!4 &1847248164
 Transform:
   m_ObjectHideFlags: 0
